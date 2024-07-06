@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+background: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.add-task-container{
+    width: 450px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px black;
+    display: flex;
+}
+#input-task{
+    flex: 5;
+    padding: 10px;
+border-radius: 10px;
+margin-right: 10px;
+font-size: 1.2rem;
+}
+#add-task{
+    flex: 1px;
+    border-radius: 8px;
+    background-color: white;
+    color: green;
+    transition: .3s;
+}
+#add-task:hover{
+    background-color: green;
+    color: white;
+}
+/* .container{
+    border: 2px solid black;
+} */
+
+.task{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 13px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.task li{
+    flex: 10;
+    align-self: center;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.checktask{
+    flex: 1;
+    transition: .3s;
+    margin-right: 5px;
+    padding: 10px 8px;
+    background-color: white;
+    border-radius: 5px;
+    color:green;
+}
+.checktask:hover{
+    background-color: green;
+    color: #fff;
+}
+.deletetask{
+    flex: 1;
+    padding: 10px 8px;
+    background-color: white;
+    border-radius: 5px;
+    color:red;
+    transition: .3s;
+}
+.deletetask:hover{
+    background-color: red;
+    color: #fff;
+}
+.edittask{
+    flex: 1;
+    margin-right: 5px;
+    padding: 10px 8px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.savetask{
+    flex: 1;
+    margin-right: 5px;
+    padding: 10px 8px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.inputtask{
+   width: 65%;
+   margin-right: 6px;
+}
